@@ -9,7 +9,7 @@ Component({
     },
     icon: { // 属性名
       type: String,
-      value: './assets/back.png'
+      value: ''
     },
   },
   lifetimes: {
