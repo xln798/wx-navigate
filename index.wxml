@@ -1,0 +1,9 @@
+
+    <view class="navigation" style="{{style}}">
+        <image src="{{icon}}" wx:if="icon" catchtap="iconClick" />
+        <text>{{title}}</text>
+    </view>
+    <view class="body" style="{{style2}}">
+        <slot></slot>
+    </view>
+    

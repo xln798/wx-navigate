@@ -1,0 +1,23 @@
+.navigation {
+    background: linear-gradient(#fff, #99CCFF);
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.navigation image {
+    width: 45rpx;
+    height: 45rpx;
+    position: absolute;
+    left: 20px;
+}
+
+.body {
+    height: 100vh;
+    box-sizing: border-box;
+}
